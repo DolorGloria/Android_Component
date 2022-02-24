@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/vBaseBottomWindowRoot"
+    style="@style/bottom_window_page" >
+
+    <TextView
+        android:id="@id/tabbar_layout"
+        style="@style/text_middle_black"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="20dp"
+        android:text="tvBottomMenuWindowTitle" />
+    <View style="@style/divider_horizontal_1px" />
+</LinearLayout>

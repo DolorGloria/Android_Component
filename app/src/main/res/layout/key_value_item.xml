@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/activity_page">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/edit_item">
+
+        <TextView
+            android:text="key"
+            style="@style/edit_item_left_tv_gravity_right" />
+
+        <TextView
+            android:text="value"
+            style="@style/edit_item_right_ll"
+            android:layout_weight="1"
+            android:background="@color/divider" />
+
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/edit_item"
+        android:background="@drawable/white_to_gray" >
+
+        <TextView
+            android:id="@+id/tvKeyValueItemKey"
+            style="@style/edit_item_left_tv_gravity_right"
+            android:textColor="@color/gray_2" />
+
+        <LinearLayout
+            android:id="@+id/llKeyValueItemValueContainer"
+            style="@style/wrap_wrap"
+            android:gravity="center_vertical" >
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvKeyValueItemValue"
+            style="@style/edit_item_right_et"
+            android:layout_weight="1"
+            android:textColor="@color/gray_4" />
+
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/edit_item"
+        android:background="@drawable/to_alpha" >
+
+        <TextView
+            android:id="@+id/tvKeyValueItemKey"
+            style="@style/content_item_lf_tv" />
+
+        <LinearLayout
+            android:id="@+id/llKeyValueItemValueContainer"
+            style="@style/wrap_wrap"
+            android:layout_weight="1"
+            android:gravity="center_vertical" >
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvKeyValueItemValue"
+            style="@style/content_item_rt_tv"
+            android:gravity="right" />
+
+    </LinearLayout>
+</LinearLayout>
+
